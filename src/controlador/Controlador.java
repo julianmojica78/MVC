@@ -52,5 +52,6 @@ public class Controlador implements ActionListener{
         model.setMensaje(view.txtMensaje.getText());
         model.agregar();
         view.listGeneral.setModel(modelo);
+        view.txtMensaje.setText("");
     }
 }
